@@ -1,0 +1,33 @@
+{
+  "name": "handy-go",
+  "version": "1.0.0",
+  "description": "Handy Go - On-demand home services platform connecting customers with skilled workers",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "backend/*",
+    "backend/services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter ./backend/services/* run dev\"",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "clean": "pnpm -r run clean",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "author": "Handy Go Team",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,110 @@
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:11:26"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-25 16:11:26"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:11:26"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-25 16:11:32","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-25 16:11:54","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"handy-go","timestamp":"2026-01-25 16:11:59"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:12:46"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-25 16:12:46"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:12:46"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:16:09"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-25 16:16:09"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:16:09"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-25 16:17:35","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-25 16:17:44","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-25 16:19:07","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-25 17:03:01","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-26 00:27:55"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-26 00:27:55"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-26 00:27:55"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:52:46"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-27 23:52:46"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:52:46"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:53:27"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-27 23:53:27"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:53:27"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-27 23:53:48","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:54:30"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-27 23:54:30"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:54:30"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:54:34"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-27 23:54:34"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:54:34"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:01:05","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:01:21","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:01:32","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 00:17:05","userAgent":"curl/8.16.0"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:18:02","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 00:20:29"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-28 00:20:29"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 00:20:29"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:29:32","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 00:32:26","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 00:33:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:39:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 00:39:49","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:09:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:10:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:10:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:11:25","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 01:11:57","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:13:13","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:13:24","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:13:28","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:13:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 01:17:41","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:23:45","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:24:38","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 01:29:23","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 02:18:11"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-28 02:18:11"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 02:18:11"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:23:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:23:36","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:23:59","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:24:14","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:24:35","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:25:01","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:25:17","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:25:38","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:25:49","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:25:52","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/addresses/69792d13301ae724c54468d1","service":"handy-go","timestamp":"2026-01-28 02:26:04","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:26:23","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:26:30","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:27:00","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:27:09","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:28:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:28:27","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:28:45","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/addresses/69792d13301ae724c54468d1","service":"handy-go","timestamp":"2026-01-28 02:29:37","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/addresses/69792d13301ae724c54468d1","service":"handy-go","timestamp":"2026-01-28 02:29:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:29:48","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:29:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:30:00","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:30:01","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/users/customer/addresses","service":"handy-go","timestamp":"2026-01-28 02:30:23","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:33:04","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:37:12","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:37:14","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:37:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:39:13","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"DELETE /api/users/customer/account","service":"handy-go","timestamp":"2026-01-28 02:39:24","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:42:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:46:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:50:12","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 02:50:18","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"DELETE /api/users/customer/addresses/69792dfb301ae724c54468f5","service":"handy-go","timestamp":"2026-01-28 02:50:25","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 03:35:56"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-01-28 03:35:56"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 03:35:56"}
+{"ip":"::1","level":"info","message":"GET /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 03:39:30","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 03:42:11","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"PUT /api/users/customer/profile","service":"handy-go","timestamp":"2026-01-28 03:42:23","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 01:32:25"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-02-19 01:32:25"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 01:32:25"}
+{"ip":"::1","level":"info","message":"GET /health","service":"handy-go","timestamp":"2026-02-19 01:35:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 23:28:49"}
+{"level":"info","message":"User Service running on port 3002","service":"handy-go","timestamp":"2026-02-19 23:28:49"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 23:28:49"}

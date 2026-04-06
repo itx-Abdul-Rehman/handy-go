@@ -1,0 +1,347 @@
+{
+  "@@locale": "en",
+
+  "appName": "Handy Go",
+  "workerPortal": "Worker Portal",
+  "appTitle": "Handy Go - Worker",
+
+  "onboardingTitle1": "Find Great Jobs",
+  "onboardingDesc1": "Get matched with customers who need your skills. Accept jobs that fit your schedule.",
+  "onboardingTitle2": "Earn More Money",
+  "onboardingDesc2": "Set your own rates and build your reputation. More jobs, more earnings!",
+  "onboardingTitle3": "Safe & Secure",
+  "onboardingDesc3": "Work with verified customers. Our SOS feature keeps you protected always.",
+  "skip": "Skip",
+  "getStarted": "Get Started",
+  "next": "Next",
+  "alreadyHaveAccount": "Already have an account? ",
+  "login": "Login",
+
+  "signUp": "Sign Up",
+  "enterYourEmail": "Enter your email",
+  "emailOtpDescription": "We'll send you an OTP to verify your email",
+  "emailAddress": "Email Address",
+  "emailHint": "you@example.com",
+  "pleaseEnterEmail": "Please enter your email",
+  "pleaseEnterValidEmail": "Please enter a valid email address",
+  "emailActiveNote": "Make sure this email is active. We'll send a 6-digit OTP to verify your identity.",
+  "continueButton": "Continue",
+  "byContinuingAgree": "By continuing, you agree to our ",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+
+  "verification": "Verification",
+  "verificationCode": "Verification Code",
+  "enterOtpSentTo": "Enter the 6-digit code sent to\n{email}",
+  "@enterOtpSentTo": {
+    "placeholders": {
+      "email": { "type": "String" }
+    }
+  },
+  "resendCodeIn": "Resend code in {seconds}s",
+  "@resendCodeIn": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "resendCode": "Resend Code",
+  "verify": "Verify",
+
+  "welcomeBack": "Welcome Back!",
+  "loginToWorkerAccount": "Login to your worker account",
+  "password": "Password",
+  "pleaseEnterPassword": "Please enter your password",
+  "pleaseEnterValidEmailShort": "Please enter a valid email",
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account? ",
+
+  "createAccount": "Create Account",
+  "personalInformation": "Personal Information",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "phoneNumberOptional": "Phone Number (Optional)",
+  "cnicNumber": "CNIC Number",
+  "cnicHint": "XXXXX-XXXXXXX-X",
+  "selectYourSkills": "Select Your Skills",
+  "chooseSkillsDescription": "Choose the services you can provide",
+  "plumbing": "Plumbing",
+  "electrical": "Electrical",
+  "cleaning": "Cleaning",
+  "acRepair": "AC Repair",
+  "carpenter": "Carpenter",
+  "painting": "Painting",
+  "mechanic": "Mechanic",
+  "generalHandyman": "General Handyman",
+  "createPassword": "Create Password",
+  "confirmPassword": "Confirm Password",
+  "iAgreeToThe": "I agree to the ",
+  "termsAndConditions": "Terms & Conditions",
+  "pleaseSelectAtLeastOneSkill": "Please select at least one skill",
+  "pleaseAcceptTerms": "Please accept the Terms & Conditions",
+
+  "home": "Home",
+  "jobs": "Jobs",
+  "earnings": "Earnings",
+  "profile": "Profile",
+  "helloName": "Hello, {name}!",
+  "@helloName": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "available": "Available",
+  "offline": "Offline",
+  "youAreOnline": "You are Online",
+  "youAreOffline": "You are Offline",
+  "readyToReceiveJobs": "Ready to receive job requests",
+  "toggleToStartReceiving": "Toggle to start receiving jobs",
+  "rating": "Rating",
+  "jobsDone": "Jobs Done",
+  "trust": "Trust",
+  "activeJobs": "Active Jobs",
+  "viewAll": "View All",
+  "availableJobs": "Available Jobs",
+  "nJobs": "{count} jobs",
+  "@nJobs": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noJobsAvailable": "No jobs available right now",
+  "stayOnlineForJobs": "Stay online to receive new job requests",
+  "inProgressLabel": "IN PROGRESS",
+  "urgentLabel": "URGENT",
+  "failedToUpdateAvailability": "Failed to update availability",
+  "myJobs": "My Jobs",
+  "all": "ALL",
+  "pending": "PENDING",
+  "accepted": "ACCEPTED",
+  "inProgressFilter": "IN_PROGRESS",
+  "completed": "COMPLETED",
+  "cancelled": "CANCELLED",
+  "noJobsFound": "No {status} jobs found",
+  "@noJobsFound": {
+    "placeholders": {
+      "status": { "type": "String" }
+    }
+  },
+
+  "activeJob": "Active Job",
+  "bookingNotFound": "Booking not found",
+  "jobInProgress": "Job In Progress",
+  "readyToStart": "Ready to Start",
+  "duration": "Duration",
+  "location": "Location",
+  "navigate": "Navigate",
+  "problemDescription": "Problem Description",
+  "startJob": "Start Job",
+  "completeJob": "Complete Job",
+  "jobStarted": "Job started!",
+  "failedToStartJob": "Failed to start job",
+  "jobCompletedSuccessfully": "Job completed successfully!",
+  "failedToCompleteJob": "Failed to complete job",
+  "completeJobDialogTitle": "Complete Job",
+  "enterFinalPricing": "Enter the final pricing for this job:",
+  "finalPriceRs": "Final Price (Rs.)",
+  "materialsCostRs": "Materials Cost (Rs.)",
+  "materialsHint": "Cost of any materials used",
+  "cancel": "Cancel",
+  "complete": "Complete",
+
+  "bookingDetails": "Booking Details",
+  "urgentRequest": "URGENT REQUEST",
+  "customer": "Customer",
+  "getDirections": "Get Directions",
+  "estimatedPricing": "Estimated Pricing",
+  "laborCost": "Labor Cost",
+  "estimatedDuration": "Estimated Duration",
+  "nMins": "{count} mins",
+  "@nMins": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "estimatedTotal": "Estimated Total",
+  "acceptJob": "Accept Job",
+  "reject": "Reject",
+  "failedToLoadBookingDetails": "Failed to load booking details",
+  "bookingAcceptedSuccessfully": "Booking accepted successfully!",
+  "failedToAcceptBooking": "Failed to accept booking",
+  "bookingRejected": "Booking rejected",
+  "failedToRejectBooking": "Failed to reject booking",
+  "rejectBookingTitle": "Reject Booking",
+  "provideReasonForRejection": "Please provide a reason for rejecting this job:",
+  "enterReason": "Enter reason...",
+
+  "earningsTitle": "Earnings",
+  "totalEarnings": "Total Earnings",
+  "nJobsCompleted": "{count} jobs completed",
+  "@nJobsCompleted": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "today": "Today",
+  "thisWeek": "This Week",
+  "thisMonth": "This Month",
+  "avgPerJob": "Avg. per Job",
+  "pendingEarnings": "Pending",
+  "recentTransactions": "Recent Transactions",
+  "noTransactionsYet": "No transactions yet",
+  "withdrawalComingSoon": "Minimum withdrawal amount is Rs. 500",
+  "withdrawToBank": "Withdraw to Bank",
+
+  "profileTitle": "Profile",
+  "skills": "Skills",
+  "manage": "Manage",
+  "editProfile": "Edit Profile",
+  "manageSkills": "Manage Skills",
+  "documents": "Documents",
+  "notifications": "Notifications",
+  "helpAndSupport": "Help & Support",
+  "needHelpContactUs": "Need help? Contact us:",
+  "supportEmail": "support@handygo.app",
+  "supportPhone": "+92 300 1234567",
+  "close": "Close",
+  "about": "About",
+  "handyGoWorker": "Handy Go Worker",
+  "copyright": "© 2024 Handy Go. All rights reserved.",
+  "logout": "Logout",
+  "logoutConfirm": "Are you sure you want to logout?",
+
+  "editProfileTitle": "Edit Profile",
+  "save": "Save",
+  "serviceSettings": "Service Settings",
+  "serviceRadiusKm": "Service Radius (km)",
+  "maxDistanceDescription": "Maximum distance you are willing to travel",
+  "bankDetails": "Bank Details",
+  "accountTitle": "Account Title",
+  "accountNumber": "Account Number",
+  "bankName": "Bank Name",
+  "saveChanges": "Save Changes",
+  "profileUpdatedSuccessfully": "Profile updated successfully!",
+  "profileImageUpdated": "Profile image updated",
+  "firstNameRequired": "First name is required",
+  "lastNameRequired": "Last name is required",
+  "emailOptional": "Email (Optional)",
+
+  "manageSkillsTitle": "Manage Skills",
+  "yearsExpRate": "{years} years exp \u2022 Rs. {rate}/hr",
+  "@yearsExpRate": {
+    "placeholders": {
+      "years": { "type": "int" },
+      "rate": { "type": "int" }
+    }
+  },
+  "editDetails": "Edit Details",
+  "yearsOfExperience": "Years of Experience",
+  "hourlyRateRs": "Hourly Rate (Rs.)",
+  "skillsSavedSuccessfully": "Skills saved successfully!",
+  "failedToSaveSkills": "Failed to save skills: {error}",
+  "@failedToSaveSkills": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "myDocuments": "My Documents",
+  "requiredDocuments": "Required Documents",
+  "additionalDocuments": "Additional Documents",
+  "addCertificate": "Add Certificate",
+  "profileVerified": "Profile Verified",
+  "verificationPending": "Verification Pending",
+  "allDocumentsVerified": "All required documents have been verified",
+  "someDocumentsPending": "Some documents are pending verification",
+  "cnicFront": "CNIC Front",
+  "cnicBack": "CNIC Back",
+  "profilePhoto": "Profile Photo",
+  "notUploadedYet": "Not uploaded yet",
+  "verified": "Verified",
+  "pendingStatus": "Pending",
+  "rejected": "Rejected",
+  "upload": "Upload",
+  "documentUploadedSuccessfully": "Document uploaded successfully",
+  "takePhoto": "Take Photo",
+  "chooseFromGallery": "Choose from Gallery",
+
+  "emergencySos": "Emergency SOS",
+  "emergencyHelp": "Emergency Help",
+  "sosMainDescription": "Send an SOS alert to the admin team.\nThey will respond as quickly as possible.",
+  "whatIsHappening": "What is happening?",
+  "sosReasonUnsafe": "I feel unsafe",
+  "sosReasonAggressive": "Customer is aggressive",
+  "sosReasonHarassment": "Harassment",
+  "sosReasonTheft": "Theft or robbery",
+  "sosReasonFakeIdentity": "Customer not who they claim to be",
+  "sosReasonPaymentDispute": "Dispute over payment",
+  "sosReasonPropertyDamage": "Property damage",
+  "sosReasonOther": "Other emergency",
+  "additionalDetails": "Additional details (optional)",
+  "describeSituation": "Describe the situation...",
+  "attachEvidence": "Attach evidence (optional)",
+  "addPhotoEvidence": "Add photo evidence",
+  "addMorePhotos": "Add more ({count}/3)",
+  "@addMorePhotos": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "sendingSos": "Sending SOS...",
+  "sendSosAlert": "SEND SOS ALERT",
+  "confirmSos": "Confirm SOS",
+  "sosConfirmMessage": "This will send an emergency alert to the admin team. False alerts may result in account penalties.\n\nAre you sure you want to proceed?",
+  "sendSos": "Send SOS",
+  "emergencyContacts": "Emergency Contacts",
+  "police": "Police",
+  "ambulance": "Ambulance",
+  "fire": "Fire",
+  "sosSent": "SOS Sent",
+  "sosAlertSentSuccessfully": "SOS Alert Sent Successfully",
+  "sosSuccessMessage": "Our admin team has been notified and will\nrespond as quickly as possible.\n\nStay safe and stay where you are if possible.",
+  "backToApp": "Back to App",
+
+  "notificationsTitle": "Notifications",
+  "markAllRead": "Mark all read",
+  "retry": "Retry",
+  "noNotificationsYet": "No notifications yet",
+  "notificationsEmpty": "You will receive notifications about\nyour bookings and updates here",
+  "justNow": "Just now",
+  "minutesAgo": "{count}m ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "hoursAgo": "{count}h ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "daysAgo": "{count}d ago",
+  "@daysAgo": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "noMessagesYet": "No messages yet",
+  "startConversationWith": "Start a conversation with {name}",
+  "@startConversationWith": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "typeAMessage": "Type a message...",
+  "chatNotAvailable": "Chat is not available at the moment",
+
+  "somethingWentWrong": "Something went wrong",
+  "error": "Error",
+  "success": "Success",
+  "loading": "Loading...",
+  "noInternet": "No Internet Connection",
+  "checkConnection": "Please check your internet connection and try again",
+  "tryAgain": "Please try again later",
+  "english": "English",
+  "urdu": "اردو"
+}

@@ -1,0 +1,31 @@
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"SOS auto-escalation job started","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"SOS reminder job started","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"Daily SOS summary job scheduled","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"SOS service running on port 3006","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 00:15:21"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"SOS auto-escalation job started","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"SOS reminder job started","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"Daily SOS summary job scheduled","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"SOS service running on port 3006","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 00:16:02"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"SOS auto-escalation job started","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"SOS reminder job started","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"Daily SOS summary job scheduled","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"SOS service running on port 3006","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 02:19:06"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"level":"info","message":"SOS auto-escalation job started","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"level":"info","message":"SOS reminder job started","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"level":"info","message":"Daily SOS summary job scheduled","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"level":"info","message":"SOS service running on port 3006","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 01:34:08"}
+{"ip":"::1","level":"info","message":"GET /health","service":"handy-go","timestamp":"2026-02-19 01:35:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 23:30:35"}
+{"level":"info","message":"SOS auto-escalation job started","service":"handy-go","timestamp":"2026-02-19 23:30:35"}
+{"level":"info","message":"SOS reminder job started","service":"handy-go","timestamp":"2026-02-19 23:30:35"}
+{"level":"info","message":"Daily SOS summary job scheduled","service":"handy-go","timestamp":"2026-02-19 23:30:35"}
+{"level":"info","message":"SOS service running on port 3006","service":"handy-go","timestamp":"2026-02-19 23:30:35"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 23:30:35"}

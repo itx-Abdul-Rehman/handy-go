@@ -1,0 +1,226 @@
+{
+    "PLUMBING": {
+        "keywords": [
+            "leak", "leaking", "leakage", "pipe", "pipes", "piping",
+            "tap", "faucet", "nozzle", "drain", "drainage", "clogged",
+            "toilet", "commode", "flush", "water", "bathroom", "washroom",
+            "kitchen sink", "sink", "geyser", "heater", "water heater",
+            "shower", "sewage", "septic", "tank", "overflow", "dripping",
+            "plumber", "plumbing", "fitting", "joint", "valve", "pump",
+            "motor", "pressure", "pipeline"
+        ],
+        "patterns": [
+            "water not coming",
+            "water leaking",
+            "pipe burst",
+            "drain blocked",
+            "drain clogged",
+            "tap leaking",
+            "faucet dripping",
+            "toilet not flushing",
+            "toilet clogged",
+            "low water pressure",
+            "no hot water",
+            "geyser not working",
+            "sewage smell",
+            "water overflow",
+            "pipe broken"
+        ],
+        "urgencyIndicators": {
+            "high": ["burst", "flooding", "emergency", "sewage", "no water", "overflow"],
+            "medium": ["leak", "drip", "slow drain", "low pressure"],
+            "low": ["install", "replace", "upgrade", "maintenance"]
+        }
+    },
+    "ELECTRICAL": {
+        "keywords": [
+            "switch", "switches", "wire", "wiring", "socket", "plug",
+            "outlet", "light", "bulb", "fan", "ceiling fan", "exhaust",
+            "short circuit", "power", "electricity", "voltage", "fuse",
+            "circuit", "breaker", "MCB", "meter", "inverter", "UPS",
+            "generator", "earthing", "grounding", "sparking", "shock",
+            "electrician", "electrical", "current", "AC", "appliance"
+        ],
+        "patterns": [
+            "light not working",
+            "no electricity",
+            "power outage",
+            "switch broken",
+            "socket not working",
+            "fan not working",
+            "sparking socket",
+            "tripping breaker",
+            "fuse blown",
+            "wiring issue",
+            "short circuit",
+            "electrical shock",
+            "dimming lights",
+            "flickering lights",
+            "install fan"
+        ],
+        "urgencyIndicators": {
+            "high": ["sparking", "shock", "fire", "burning smell", "short circuit", "no power"],
+            "medium": ["not working", "flickering", "tripping"],
+            "low": ["install", "replace", "upgrade", "new connection"]
+        }
+    },
+    "CLEANING": {
+        "keywords": [
+            "clean", "cleaning", "wash", "washing", "dust", "dusting",
+            "mop", "mopping", "vacuum", "sweep", "sweeping", "scrub",
+            "polish", "sanitize", "disinfect", "deep clean", "carpet",
+            "floor", "window", "glass", "kitchen", "bathroom", "sofa",
+            "upholstery", "mattress", "AC cleaning", "water tank"
+        ],
+        "patterns": [
+            "house cleaning",
+            "deep cleaning",
+            "carpet cleaning",
+            "sofa cleaning",
+            "kitchen cleaning",
+            "bathroom cleaning",
+            "window cleaning",
+            "AC cleaning",
+            "water tank cleaning",
+            "office cleaning",
+            "post construction cleaning",
+            "move in cleaning",
+            "move out cleaning"
+        ],
+        "urgencyIndicators": {
+            "high": ["urgent", "today", "emergency", "event", "guest coming"],
+            "medium": ["this week", "soon"],
+            "low": ["regular", "monthly", "maintenance"]
+        }
+    },
+    "AC_REPAIR": {
+        "keywords": [
+            "AC", "air conditioner", "air conditioning", "split AC", "window AC",
+            "inverter AC", "cooling", "not cooling", "gas", "refrigerant",
+            "compressor", "filter", "thermostat", "remote", "PCB",
+            "condenser", "evaporator", "leaking water", "noise", "smell"
+        ],
+        "patterns": [
+            "AC not cooling",
+            "AC not working",
+            "AC leaking water",
+            "AC making noise",
+            "AC gas refill",
+            "AC installation",
+            "AC service",
+            "AC cleaning",
+            "AC repair",
+            "AC maintenance",
+            "bad smell from AC",
+            "AC remote not working",
+            "AC compressor issue"
+        ],
+        "urgencyIndicators": {
+            "high": ["not working", "no cooling", "summer", "hot"],
+            "medium": ["leaking", "noise", "smell"],
+            "low": ["service", "maintenance", "cleaning", "install"]
+        }
+    },
+    "CARPENTER": {
+        "keywords": [
+            "carpenter", "carpentry", "wood", "wooden", "furniture",
+            "door", "window", "cabinet", "wardrobe", "cupboard", "shelf",
+            "table", "chair", "bed", "drawer", "hinge", "lock", "handle",
+            "repair", "fix", "assemble", "dismantle", "polish", "laminate"
+        ],
+        "patterns": [
+            "door not closing",
+            "door broken",
+            "window stuck",
+            "furniture repair",
+            "furniture assembly",
+            "cabinet repair",
+            "wardrobe repair",
+            "broken hinge",
+            "lock repair",
+            "wood polish",
+            "make furniture",
+            "custom furniture"
+        ],
+        "urgencyIndicators": {
+            "high": ["door broken", "lock broken", "security"],
+            "medium": ["repair", "fix"],
+            "low": ["make", "assemble", "polish", "custom"]
+        }
+    },
+    "PAINTING": {
+        "keywords": [
+            "paint", "painting", "painter", "wall", "ceiling", "interior",
+            "exterior", "emulsion", "enamel", "primer", "putty", "texture",
+            "waterproof", "damp", "seepage", "color", "coat", "brush",
+            "roller", "spray"
+        ],
+        "patterns": [
+            "wall painting",
+            "house painting",
+            "room painting",
+            "exterior painting",
+            "interior painting",
+            "waterproof painting",
+            "damp treatment",
+            "seepage treatment",
+            "texture painting",
+            "touch up painting",
+            "ceiling painting"
+        ],
+        "urgencyIndicators": {
+            "high": ["damp", "seepage", "water damage"],
+            "medium": ["repaint", "refresh"],
+            "low": ["new paint", "color change", "renovation"]
+        }
+    },
+    "MECHANIC": {
+        "keywords": [
+            "mechanic", "car", "bike", "motorcycle", "vehicle", "engine",
+            "battery", "tire", "tyre", "brake", "oil", "service",
+            "repair", "breakdown", "start", "fuel", "AC", "transmission"
+        ],
+        "patterns": [
+            "car not starting",
+            "bike not starting",
+            "battery dead",
+            "flat tire",
+            "brake issue",
+            "oil change",
+            "car service",
+            "bike service",
+            "AC not working in car",
+            "engine problem",
+            "transmission problem"
+        ],
+        "urgencyIndicators": {
+            "high": ["not starting", "breakdown", "stranded", "emergency"],
+            "medium": ["service", "repair"],
+            "low": ["regular service", "checkup", "maintenance"]
+        }
+    },
+    "GENERAL_HANDYMAN": {
+        "keywords": [
+            "handyman", "fix", "repair", "install", "mount", "hang",
+            "assemble", "TV", "curtain", "rod", "hook", "shelf",
+            "mirror", "picture", "frame", "geyser", "appliance"
+        ],
+        "patterns": [
+            "TV mounting",
+            "TV installation",
+            "curtain rod installation",
+            "hang picture",
+            "mount shelf",
+            "install geyser",
+            "appliance installation",
+            "general repair",
+            "small repairs",
+            "odd jobs"
+        ],
+        "urgencyIndicators": {
+            "high": [],
+            "medium": ["repair", "fix"],
+            "low": ["install", "mount", "hang", "assemble"]
+        }
+    }
+}

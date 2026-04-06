@@ -1,0 +1,14 @@
+{
+  "name": "handy-go-appwrite-setup",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup-appwrite.mjs",
+    "setup:test": "echo 'Validating .env.appwrite...' && node -e \"import('fs').then(fs => { const c = fs.readFileSync('.env.appwrite','utf-8'); if(!c.includes('APPWRITE_PROJECT_ID=') || c.match(/APPWRITE_PROJECT_ID=\\s*$/m)) { console.error('Missing PROJECT_ID'); process.exit(1); } console.log('Config looks good!'); })\""
+  },
+  "dependencies": {
+    "node-appwrite": "^14.0.0",
+    "resend": "^6.9.2"
+  }
+}

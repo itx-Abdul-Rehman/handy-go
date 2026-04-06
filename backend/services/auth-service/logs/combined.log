@@ -1,0 +1,90 @@
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-25 15:14:45"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 15:14:45"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-25 15:14:45"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 15:14:45"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389814: Your Handy Go verification code is: 862275. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-25 15:18:06"}
+{"level":"info","message":"[DEV] OTP for +923022389814: 862275","service":"handy-go","timestamp":"2026-01-25 15:18:06"}
+{"level":"info","message":"New customer registered: +923022389814","service":"handy-go","timestamp":"2026-01-25 15:19:27"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-25 15:36:25"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-25 16:11:53"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-26 00:11:28"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-26 00:11:28"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-26 00:11:28"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-26 00:11:28"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389819: Your Handy Go verification code is: 222519. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-26 00:14:17"}
+{"level":"info","message":"[DEV] OTP for +923022389819: 222519","service":"handy-go","timestamp":"2026-01-26 00:14:17"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389819: Your Handy Go verification code is: 608280. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-26 00:18:11"}
+{"level":"info","message":"[DEV] OTP for +923022389819: 608280","service":"handy-go","timestamp":"2026-01-26 00:18:11"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-26 00:19:32"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-26 00:23:55"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-27 23:35:54"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"handy-go","timestamp":"2026-01-27 23:39:30"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 01:09:42"}
+{"level":"info","message":"[DEV MODE] SMS to +923027627814: Your Handy Go verification code is: 649971. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-28 01:21:16"}
+{"level":"info","message":"[DEV] OTP for +923027627814: 649971","service":"handy-go","timestamp":"2026-01-28 01:21:16"}
+{"level":"info","message":"[DEV MODE] SMS to +923253000814: Your Handy Go verification code is: 214377. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-28 01:22:30"}
+{"level":"info","message":"[DEV] OTP for +923253000814: 214377","service":"handy-go","timestamp":"2026-01-28 01:22:30"}
+{"level":"info","message":"New customer registered: +923253000814","service":"handy-go","timestamp":"2026-01-28 01:23:43"}
+{"level":"info","message":"User logged in: +923253000814","service":"handy-go","timestamp":"2026-01-28 01:24:37"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 01:29:22"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-28 02:17:56"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 02:17:56"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-28 02:17:56"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 02:17:56"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:23:18"}
+{"level":"info","message":"User logged in: +923253000814","service":"handy-go","timestamp":"2026-01-28 02:39:12"}
+{"level":"info","message":"[DEV MODE] SMS to +923253000814: Your Handy Go verification code is: 260957. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-28 02:39:51"}
+{"level":"info","message":"[DEV] OTP for +923253000814: 260957","service":"handy-go","timestamp":"2026-01-28 02:39:51"}
+{"level":"info","message":"Password reset for user: +923253000814","service":"handy-go","timestamp":"2026-01-28 02:40:23"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389814: Your Handy Go verification code is: 493981. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-01-28 02:40:59"}
+{"level":"info","message":"[DEV] OTP for +923022389814: 493981","service":"handy-go","timestamp":"2026-01-28 02:40:59"}
+{"level":"info","message":"Password reset for user: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:41:21"}
+{"level":"info","message":"Password reset for user: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:41:30"}
+{"level":"info","message":"Password reset for user: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:41:38"}
+{"level":"info","message":"Password reset for user: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:42:01"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:42:13"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:46:14"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 02:50:10"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-01-28 03:35:42"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 03:35:42"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-01-28 03:35:42"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 03:35:42"}
+{"level":"info","message":"User logged in: +923022389814","service":"handy-go","timestamp":"2026-01-28 03:39:28"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-02-19 01:32:01"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 01:32:01"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-02-19 01:32:01"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 01:32:01"}
+{"level":"info","message":"[DEV MODE] SMS to +923001234567: Your Handy Go verification code is: 718026. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-02-19 01:35:51"}
+{"level":"info","message":"[DEV] OTP for +923001234567: 718026","service":"handy-go","timestamp":"2026-02-19 01:35:51"}
+{"level":"warn","message":"Twilio not configured - SMS will be logged instead of sent","service":"handy-go","timestamp":"2026-02-19 23:28:07"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 23:28:07"}
+{"level":"info","message":"Auth service running on port 3001","service":"handy-go","timestamp":"2026-02-19 23:28:07"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 23:28:07"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389814: Your Handy Go verification code is: 112237. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-02-19 23:46:51"}
+{"level":"info","message":"[DEV] OTP for +923022389814: 112237","service":"handy-go","timestamp":"2026-02-19 23:46:51"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389814: Your Handy Go verification code is: 372441. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-02-19 23:48:29"}
+{"level":"info","message":"[DEV] OTP for +923022389814: 372441","service":"handy-go","timestamp":"2026-02-19 23:48:29"}
+{"level":"info","message":"[DEV MODE] SMS to +923022389814: Your Handy Go verification code is: 574048. Valid for 5 minutes. Do not share this code with anyone.","service":"handy-go","timestamp":"2026-02-19 23:51:24"}
+{"level":"info","message":"[DEV] OTP for +923022389814: 574048","service":"handy-go","timestamp":"2026-02-19 23:51:24"}

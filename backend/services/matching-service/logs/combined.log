@@ -1,0 +1,27 @@
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:38:36"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-27 23:38:36"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:38:36"}
+{"level":"info","message":"SIGINT received. Shutting down gracefully...","service":"handy-go","timestamp":"2026-01-27 23:39:30"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 02:18:39"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-01-28 02:18:39"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 02:18:39"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 01:33:15"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-02-19 01:33:15"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 01:33:15"}
+{"ip":"::1","level":"info","message":"GET /health","service":"handy-go","timestamp":"2026-02-19 01:35:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 23:29:39"}
+{"level":"info","message":"Matching Service running on port 3004","service":"handy-go","timestamp":"2026-02-19 23:29:39"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 23:29:39"}

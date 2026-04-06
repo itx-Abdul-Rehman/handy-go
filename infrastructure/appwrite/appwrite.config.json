@@ -1,0 +1,102 @@
+{
+    "projectId": "handygo",
+    "projectName": "Handy Go",
+    "endpoint": "https://fra.cloud.appwrite.io/v1",
+    "functions": [
+        {
+            "$id": "email_otp",
+            "name": "Email OTP",
+            "runtime": "node-22",
+            "path": "functions/email-otp",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 15,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [],
+            "schedule": ""
+        },
+        {
+            "$id": "matching_service",
+            "name": "Matching Service",
+            "runtime": "node-22",
+            "path": "functions/matching-service",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 30,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [],
+            "schedule": ""
+        },
+        {
+            "$id": "booking_processor",
+            "name": "Booking Processor",
+            "runtime": "node-22",
+            "path": "functions/booking-processor",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 30,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [
+                "databases.handy_go_db.collections.bookings.documents.*.update"
+            ],
+            "schedule": "*/1 * * * *"
+        },
+        {
+            "$id": "sos_analyzer",
+            "name": "SOS Analyzer",
+            "runtime": "node-22",
+            "path": "functions/sos-analyzer",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 15,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [],
+            "schedule": ""
+        },
+        {
+            "$id": "trust_calculator",
+            "name": "Trust Calculator",
+            "runtime": "node-22",
+            "path": "functions/trust-calculator",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 60,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [
+                "databases.handy_go_db.collections.reviews.documents.*.create"
+            ],
+            "schedule": "0 3 * * *"
+        },
+        {
+            "$id": "notification_sender",
+            "name": "Notification Sender",
+            "runtime": "node-22",
+            "path": "functions/notification-sender",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 15,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [],
+            "schedule": "0 4 * * *"
+        },
+        {
+            "$id": "payment_processor",
+            "name": "Payment Processor",
+            "runtime": "node-22",
+            "path": "functions/payment-processor",
+            "entrypoint": "src/main.js",
+            "enabled": true,
+            "logging": true,
+            "timeout": 30,
+            "specification": "s-0.5vcpu-512mb",
+            "events": [],
+            "schedule": ""
+        }
+    ]
+}

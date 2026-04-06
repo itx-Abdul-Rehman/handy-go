@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15936463807",
+    "project_id": "push-notifications-bd045",
+    "storage_bucket": "push-notifications-bd045.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15936463807:android:fc6b46ccf194f6150db70a",
+        "android_client_info": {
+          "package_name": "com.handygo.customer_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI4BvaZ3fVDLOcIiJifxg6CYROwL_AAN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

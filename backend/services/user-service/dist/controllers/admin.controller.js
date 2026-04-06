@@ -1,0 +1,158 @@
+import { Customer, Worker, User, asyncHandler, successResponse, errorResponse, notFoundResponse, paginatedResponse, HTTP_STATUS, DEFAULTS, } from '@handy-go/shared';
+/**
+ * Get all customers (paginated)
+ * GET /api/users/admin/customers
+ */
+export const getCustomers = asyncHandler(async (req, res) => {
+    const page = parseInt(req.query.page) || 1;
+    const limit = Math.min(parseInt(req.query.limit) || DEFAULTS.PAGINATION_LIMIT, DEFAULTS.MAX_PAGINATION_LIMIT);
+    const search = req.query.search;
+    const status = req.query.status;
+    const skip = (page - 1) * limit;
+    // Build filter
+    const filter = {};
+    if (search) {
+        filter.$or = [
+            { firstName: { $regex: search, $options: 'i' } },
+            { lastName: { $regex: search, $options: 'i' } },
+        ];
+    }
+    // Get total count
+    const total = await Customer.countDocuments(filter);
+    // Get customers
+    const customers = await Customer.find(filter)
+        .populate('user', 'phone email isVerified isActive createdAt')
+        .skip(skip)
+        .limit(limit)
+        .sort({ createdAt: -1 });
+    // Filter by user status if provided
+    let filteredCustomers = customers;
+    if (status === 'active') {
+        filteredCustomers = customers.filter((c) => c.user?.isActive);
+    }
+    else if (status === 'inactive') {
+        filteredCustomers = customers.filter((c) => !c.user?.isActive);
+    }
+    return paginatedResponse(res, filteredCustomers, page, limit, total, 'Customers retrieved');
+});
+/**
+ * Get all workers (paginated)
+ * GET /api/users/admin/workers
+ */
+export const getWorkers = asyncHandler(async (req, res) => {
+    const page = parseInt(req.query.page) || 1;
+    const limit = Math.min(parseInt(req.query.limit) || DEFAULTS.PAGINATION_LIMIT, DEFAULTS.MAX_PAGINATION_LIMIT);
+    const search = req.query.search;
+    const status = req.query.status;
+    const verificationStatus = req.query.verificationStatus;
+    const skip = (page - 1) * limit;
+    // Build filter
+    const filter = {};
+    if (search) {
+        filter.$or = [
+            { firstName: { $regex: search, $options: 'i' } },
+            { lastName: { $regex: search, $options: 'i' } },
+            { cnic: { $regex: search, $options: 'i' } },
+        ];
+    }
+    if (verificationStatus) {
+        filter.status = verificationStatus;
+    }
+    // Get total count
+    const total = await Worker.countDocuments(filter);
+    // Get workers
+    const workers = await Worker.find(filter)
+        .populate('user', 'phone email isVerified isActive createdAt')
+        .skip(skip)
+        .limit(limit)
+        .sort({ createdAt: -1 });
+    return paginatedResponse(res, workers, page, limit, total, 'Workers retrieved');
+});
+/**
+ * Get workers pending verification
+ * GET /api/users/admin/workers/pending
+ */
+export const getPendingWorkers = asyncHandler(async (req, res) => {
+    const workers = await Worker.find({ status: 'PENDING_VERIFICATION' })
+        .populate('user', 'phone email createdAt')
+        .sort({ createdAt: 1 }); // Oldest first
+    return successResponse(res, workers, 'Pending workers retrieved');
+});
+/**
+ * Verify worker
+ * PUT /api/users/admin/workers/:workerId/verify
+ */
+export const verifyWorker = asyncHandler(async (req, res) => {
+    const { workerId } = req.params;
+    const { status, notes } = req.body;
+    if (!['ACTIVE', 'REJECTED'].includes(status)) {
+        return errorResponse(res, 'Status must be ACTIVE or REJECTED', HTTP_STATUS.BAD_REQUEST);
+    }
+    const worker = await Worker.findById(workerId);
+    if (!worker) {
+        return notFoundResponse(res, 'Worker not found');
+    }
+    worker.status = status;
+    if (status === 'ACTIVE') {
+        worker.cnicVerified = true;
+        // Verify all skills on approval
+        worker.skills = worker.skills.map(skill => ({ ...skill, isVerified: true }));
+    }
+    await worker.save();
+    // TODO: Send notification to worker about verification status
+    return successResponse(res, worker, `Worker ${status === 'ACTIVE' ? 'approved' : 'rejected'} successfully`);
+});
+/**
+ * Update user status (activate/deactivate)
+ * PUT /api/users/admin/users/:userId/status
+ */
+export const updateUserStatus = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+    const { isActive, reason } = req.body;
+    if (typeof isActive !== 'boolean') {
+        return errorResponse(res, 'isActive must be a boolean', HTTP_STATUS.BAD_REQUEST);
+    }
+    const user = await User.findById(userId);
+    if (!user) {
+        return notFoundResponse(res, 'User not found');
+    }
+    // Don't allow deactivating admin users
+    if (user.role === 'ADMIN' && !isActive) {
+        return errorResponse(res, 'Cannot deactivate admin users', HTTP_STATUS.FORBIDDEN);
+    }
+    user.isActive = isActive;
+    await user.save();
+    // If deactivating a worker, also update worker status
+    if (!isActive && user.role === 'WORKER') {
+        await Worker.findOneAndUpdate({ user: userId }, { status: 'SUSPENDED' });
+    }
+    else if (isActive && user.role === 'WORKER') {
+        const worker = await Worker.findOne({ user: userId });
+        if (worker && worker.status === 'SUSPENDED') {
+            worker.status = worker.cnicVerified ? 'ACTIVE' : 'PENDING_VERIFICATION';
+            await worker.save();
+        }
+    }
+    // TODO: Send notification to user about account status change
+    return successResponse(res, { isActive: user.isActive }, `User ${isActive ? 'activated' : 'deactivated'} successfully`);
+});
+/**
+ * Get user details
+ * GET /api/users/admin/users/:userId
+ */
+export const getUserDetails = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+    const user = await User.findById(userId);
+    if (!user) {
+        return notFoundResponse(res, 'User not found');
+    }
+    let profile = null;
+    if (user.role === 'CUSTOMER') {
+        profile = await Customer.findOne({ user: userId });
+    }
+    else if (user.role === 'WORKER') {
+        profile = await Worker.findOne({ user: userId });
+    }
+    return successResponse(res, { user, profile }, 'User details retrieved');
+});
+//# sourceMappingURL=admin.controller.js.map

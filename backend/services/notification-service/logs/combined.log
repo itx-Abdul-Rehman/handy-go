@@ -1,0 +1,111 @@
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-25 01:18:57"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-25 01:18:58"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-25 01:18:58"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 01:18:58"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-25 01:18:58"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 01:18:58"}
+{"ip":"::1","level":"info","message":"GET /health","service":"handy-go","timestamp":"2026-01-25 01:21:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 15:24:51"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-25 16:10:48","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-25 16:10:49","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-25 16:11:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-25 16:11:54","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-25 16:15:37"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-25 16:17:35","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-25 16:17:36","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-25 16:24:37"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-25 17:03:01","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-25 17:03:01","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-26 00:28:07"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:35:26"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-27 23:35:56","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:38:36"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:38:37"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-27 23:44:41"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-27 23:46:26","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-27 23:46:26","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-27 23:52:17","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-27 23:52:17","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/notifications/send","service":"handy-go","timestamp":"2026-01-28 00:00:00","userAgent":"axios/1.13.2"}
+{"level":"error","message":"Error occurred Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","service":"handy-go","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\response.js:1160:12)\n    at ServerResponse.json (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\response.js:271:14)\n    at authenticateService (D:\\Projects\\hangydo\\code\\handy-go\\backend\\services\\notification-service\\src\\middleware\\auth.middleware.ts:98:21)\n    at Layer.handle [as handle_request] (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\index.js:284:15\n    at router.process_params (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2026-01-28 00:00:00"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 00:18:02","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 00:18:03","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 00:29:31","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 00:29:32","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"POST /api/notifications/send","service":"handy-go","timestamp":"2026-01-28 01:00:00","userAgent":"axios/1.13.2"}
+{"level":"error","message":"Error occurred Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","service":"handy-go","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\response.js:1160:12)\n    at ServerResponse.json (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\response.js:271:14)\n    at authenticateService (D:\\Projects\\hangydo\\code\\handy-go\\backend\\services\\notification-service\\src\\middleware\\auth.middleware.ts:98:21)\n    at Layer.handle [as handle_request] (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\index.js:284:15\n    at router.process_params (D:\\Projects\\hangydo\\code\\handy-go\\node_modules\\.pnpm\\express@4.22.1\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2026-01-28 01:00:00"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:09:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:09:43","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:10:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:10:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:10:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:10:54","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:11:25","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:11:26","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:23:45","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:23:46","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:24:38","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:24:39","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 01:29:23","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 01:29:24","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-01-28 02:18:52"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 02:23:20","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 02:23:21","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 02:39:13","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 02:39:14","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 02:42:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 02:42:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 02:46:15","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 02:46:16","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications","service":"handy-go","timestamp":"2026-01-28 02:50:11","userAgent":"Dart/3.10 (dart:io)"}
+{"ip":"::1","level":"info","message":"GET /api/notifications/unread-count","service":"handy-go","timestamp":"2026-01-28 02:50:12","userAgent":"Dart/3.10 (dart:io)"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-02-19 01:33:43"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-02-19 01:33:44"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-02-19 01:33:44"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 01:33:44"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-02-19 01:33:44"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 01:33:44"}
+{"ip":"::1","level":"info","message":"GET /health","service":"handy-go","timestamp":"2026-02-19 01:35:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
+{"level":"warn","message":"Firebase credentials not configured - push notifications disabled","service":"handy-go","timestamp":"2026-02-19 23:30:06"}
+{"level":"warn","message":"Twilio credentials not configured - SMS notifications disabled","service":"handy-go","timestamp":"2026-02-19 23:30:06"}
+{"level":"warn","message":"Email credentials not configured - email notifications disabled","service":"handy-go","timestamp":"2026-02-19 23:30:06"}
+{"level":"info","message":"Connected to MongoDB","service":"handy-go","timestamp":"2026-02-19 23:30:06"}
+{"level":"info","message":"Notification service running on port 3005","service":"handy-go","timestamp":"2026-02-19 23:30:06"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-02-19 23:30:06"}

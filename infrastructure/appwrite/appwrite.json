@@ -1,0 +1,74 @@
+{
+  "projectId": "handygo",
+  "projectName": "Handy Go",
+  "functions": [
+    {
+      "$id": "email_otp",
+      "name": "Email OTP",
+      "runtime": "node-22",
+      "path": "functions/email-otp",
+      "entrypoint": "src/main.js",
+      "timeout": 15,
+      "events": [],
+      "schedule": ""
+    },
+    {
+      "$id": "matching_service",
+      "name": "Matching Service",
+      "runtime": "node-22",
+      "path": "functions/matching-service",
+      "entrypoint": "src/main.js",
+      "timeout": 30,
+      "events": [],
+      "schedule": ""
+    },
+    {
+      "$id": "booking_processor",
+      "name": "Booking Processor",
+      "runtime": "node-22",
+      "path": "functions/booking-processor",
+      "entrypoint": "src/main.js",
+      "timeout": 30,
+      "events": ["databases.handy_go_db.collections.bookings.documents.*.update"],
+      "schedule": "*/1 * * * *"
+    },
+    {
+      "$id": "sos_analyzer",
+      "name": "SOS Analyzer",
+      "runtime": "node-22",
+      "path": "functions/sos-analyzer",
+      "entrypoint": "src/main.js",
+      "timeout": 15,
+      "events": [],
+      "schedule": ""
+    },
+    {
+      "$id": "trust_calculator",
+      "name": "Trust Calculator",
+      "runtime": "node-22",
+      "path": "functions/trust-calculator",
+      "entrypoint": "src/main.js",
+      "timeout": 60,
+      "events": ["databases.handy_go_db.collections.reviews.documents.*.create"],
+      "schedule": "0 3 * * *"
+    },
+    {
+      "$id": "notification_sender",
+      "name": "Notification Sender",
+      "runtime": "node-22",
+      "path": "functions/notification-sender",
+      "entrypoint": "src/main.js",
+      "timeout": 15,
+      "events": [],      "schedule": "0 4 * * *"
+    },
+    {
+      "$id": "payment_processor",
+      "name": "Payment Processor",
+      "runtime": "node-22",
+      "path": "functions/payment-processor",
+      "entrypoint": "src/main.js",
+      "timeout": 30,
+      "events": [],      "schedule": "0 4 * * *"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+    "PLUMBING": {
+        "basic": {
+            "laborMin": 300,
+            "laborMax": 800,
+            "durationMin": 20,
+            "durationMax": 45,
+            "examples": ["minor leak repair", "tap washer replacement", "drain cleaning"]
+        },
+        "medium": {
+            "laborMin": 800,
+            "laborMax": 2000,
+            "durationMin": 45,
+            "durationMax": 90,
+            "examples": ["tap replacement", "pipe repair", "toilet repair", "geyser service"]
+        },
+        "complex": {
+            "laborMin": 2000,
+            "laborMax": 5000,
+            "durationMin": 90,
+            "durationMax": 240,
+            "examples": ["pipe replacement", "bathroom fitting", "geyser installation", "water tank work"]
+        }
+    },
+    "ELECTRICAL": {
+        "basic": {
+            "laborMin": 200,
+            "laborMax": 600,
+            "durationMin": 15,
+            "durationMax": 30,
+            "examples": ["switch replacement", "socket repair", "bulb installation"]
+        },
+        "medium": {
+            "laborMin": 600,
+            "laborMax": 1500,
+            "durationMin": 30,
+            "durationMax": 90,
+            "examples": ["fan installation", "wiring repair", "MCB replacement"]
+        },
+        "complex": {
+            "laborMin": 1500,
+            "laborMax": 5000,
+            "durationMin": 90,
+            "durationMax": 300,
+            "examples": ["complete rewiring", "meter installation", "main panel work"]
+        }
+    },
+    "CLEANING": {
+        "basic": {
+            "laborMin": 500,
+            "laborMax": 1000,
+            "durationMin": 60,
+            "durationMax": 120,
+            "examples": ["single room cleaning", "bathroom cleaning", "kitchen cleaning"]
+        },
+        "medium": {
+            "laborMin": 1000,
+            "laborMax": 2500,
+            "durationMin": 120,
+            "durationMax": 240,
+            "examples": ["apartment cleaning", "sofa cleaning", "carpet cleaning"]
+        },
+        "complex": {
+            "laborMin": 2500,
+            "laborMax": 8000,
+            "durationMin": 240,
+            "durationMax": 480,
+            "examples": ["full house deep clean", "post construction cleaning", "water tank cleaning"]
+        }
+    },
+    "AC_REPAIR": {
+        "basic": {
+            "laborMin": 500,
+            "laborMax": 1000,
+            "durationMin": 30,
+            "durationMax": 60,
+            "examples": ["AC cleaning", "filter cleaning", "general service"]
+        },
+        "medium": {
+            "laborMin": 1000,
+            "laborMax": 2500,
+            "durationMin": 60,
+            "durationMax": 120,
+            "examples": ["gas refill", "minor repair", "PCB repair"]
+        },
+        "complex": {
+            "laborMin": 2500,
+            "laborMax": 8000,
+            "durationMin": 120,
+            "durationMax": 300,
+            "examples": ["compressor replacement", "AC installation", "major repair"]
+        }
+    },
+    "CARPENTER": {
+        "basic": {
+            "laborMin": 300,
+            "laborMax": 800,
+            "durationMin": 30,
+            "durationMax": 60,
+            "examples": ["hinge repair", "lock repair", "minor fixes"]
+        },
+        "medium": {
+            "laborMin": 800,
+            "laborMax": 2500,
+            "durationMin": 60,
+            "durationMax": 180,
+            "examples": ["door repair", "furniture repair", "cabinet fix"]
+        },
+        "complex": {
+            "laborMin": 2500,
+            "laborMax": 15000,
+            "durationMin": 180,
+            "durationMax": 480,
+            "examples": ["furniture making", "wardrobe installation", "kitchen cabinets"]
+        }
+    },
+    "PAINTING": {
+        "basic": {
+            "laborMin": 500,
+            "laborMax": 1500,
+            "durationMin": 60,
+            "durationMax": 180,
+            "examples": ["touch up", "small area painting", "door painting"]
+        },
+        "medium": {
+            "laborMin": 1500,
+            "laborMax": 5000,
+            "durationMin": 180,
+            "durationMax": 480,
+            "examples": ["single room painting", "bathroom painting", "ceiling painting"]
+        },
+        "complex": {
+            "laborMin": 5000,
+            "laborMax": 30000,
+            "durationMin": 480,
+            "durationMax": 1440,
+            "examples": ["full house painting", "exterior painting", "texture painting"]
+        }
+    },
+    "MECHANIC": {
+        "basic": {
+            "laborMin": 300,
+            "laborMax": 800,
+            "durationMin": 30,
+            "durationMax": 60,
+            "examples": ["oil change", "battery check", "tire change"]
+        },
+        "medium": {
+            "laborMin": 800,
+            "laborMax": 2500,
+            "durationMin": 60,
+            "durationMax": 180,
+            "examples": ["brake service", "basic service", "minor repairs"]
+        },
+        "complex": {
+            "laborMin": 2500,
+            "laborMax": 10000,
+            "durationMin": 180,
+            "durationMax": 480,
+            "examples": ["engine repair", "transmission work", "major service"]
+        }
+    },
+    "GENERAL_HANDYMAN": {
+        "basic": {
+            "laborMin": 300,
+            "laborMax": 700,
+            "durationMin": 20,
+            "durationMax": 45,
+            "examples": ["picture hanging", "hook installation", "small fixes"]
+        },
+        "medium": {
+            "laborMin": 700,
+            "laborMax": 1500,
+            "durationMin": 45,
+            "durationMax": 90,
+            "examples": ["TV mounting", "shelf installation", "curtain rod"]
+        },
+        "complex": {
+            "laborMin": 1500,
+            "laborMax": 4000,
+            "durationMin": 90,
+            "durationMax": 240,
+            "examples": ["appliance installation", "multiple installations", "complex mounting"]
+        }
+    }
+}

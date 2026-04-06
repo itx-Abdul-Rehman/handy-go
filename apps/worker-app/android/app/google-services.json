@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338889841807",
+    "project_id": "workerpushnotification",
+    "storage_bucket": "workerpushnotification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338889841807:android:19fadc01ed99b8643124fa",
+        "android_client_info": {
+          "package_name": "com.handygo.worker_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmXaEXpFV3R5-UK3z1h61A7gncMW3aWqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
