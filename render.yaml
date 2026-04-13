@@ -13,36 +13,19 @@ services:
       - key: NODE_ENV
         value: production
       - fromGroup: hgo-common-vars
+      # Use internal Render service names for communication
       - key: AUTH_SERVICE_URL
-        fromService:
-          name: hgo-auth-service
-          type: web
-          property: host
+        value: http://hgo-auth-service:3001
       - key: USER_SERVICE_URL
-        fromService:
-          name: hgo-user-service
-          type: web
-          property: host
+        value: http://hgo-user-service:3002
       - key: BOOKING_SERVICE_URL
-        fromService:
-          name: hgo-booking-service
-          type: web
-          property: host
+        value: http://hgo-booking-service:3003
       - key: MATCHING_SERVICE_URL
-        fromService:
-          name: hgo-matching-service
-          type: web
-          property: host
+        value: http://hgo-matching-service:3004
       - key: NOTIFICATION_SERVICE_URL
-        fromService:
-          name: hgo-notification-service
-          type: web
-          property: host
+        value: http://hgo-notification-service:3005
       - key: SOS_SERVICE_URL
-        fromService:
-          name: hgo-sos-service
-          type: web
-          property: host
+        value: http://hgo-sos-service:3006
 
   # Auth Service
   - type: web
@@ -106,7 +89,7 @@ services:
     startCommand: pnpm run start
     envVars:
       - key: PORT
-        value: 3006
+        value: 3005
       - fromGroup: hgo-common-vars
 
   # SOS Service
@@ -119,7 +102,7 @@ services:
     startCommand: pnpm run start
     envVars:
       - key: PORT
-        value: 3007
+        value: 3006
       - fromGroup: hgo-common-vars
 
 envGroups:
