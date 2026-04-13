@@ -15,9 +15,17 @@ import emailService from '../services/email.service.js';
 import { renderTemplate, NotificationTemplateKey } from '../templates/index.js';
 import mongoose from 'mongoose';
 
-// Extend Request to include user
-interface AuthRequest extends Request {
-  user?: { id: string; role: string };
+import { UserRole } from '@handy-go/shared';
+
+declare global {
+  namespace Express {
+    interface Request {
+      user?: {
+        id: string;
+        role: UserRole;
+      };
+    }
+  }
 }
 
 /**
@@ -141,7 +149,7 @@ export const sendBulkNotification = asyncHandler(async (req: Request, res: Respo
  * Get user's notifications
  * GET /api/notifications
  */
-export const getNotifications = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const getNotifications = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const { page = 1, limit = 20, unreadOnly = 'false' } = req.query;
 
@@ -168,7 +176,7 @@ export const getNotifications = asyncHandler(async (req: AuthRequest, res: Respo
  * Get unread notification count
  * GET /api/notifications/unread-count
  */
-export const getUnreadCount = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const getUnreadCount = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
 
   const count = await Notification.countDocuments({
@@ -183,7 +191,7 @@ export const getUnreadCount = asyncHandler(async (req: AuthRequest, res: Respons
  * Mark notification as read
  * PUT /api/notifications/:notificationId/read
  */
-export const markAsRead = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const markAsRead = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const { notificationId } = req.params;
 
@@ -204,7 +212,7 @@ export const markAsRead = asyncHandler(async (req: AuthRequest, res: Response) =
  * Mark all notifications as read
  * PUT /api/notifications/read-all
  */
-export const markAllAsRead = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const markAllAsRead = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
 
   const result = await Notification.updateMany(
@@ -219,7 +227,7 @@ export const markAllAsRead = asyncHandler(async (req: AuthRequest, res: Response
  * Register device token for push notifications
  * POST /api/notifications/register-device
  */
-export const registerDevice = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const registerDevice = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const { deviceToken, platform } = req.body;
 
@@ -245,7 +253,7 @@ export const registerDevice = asyncHandler(async (req: AuthRequest, res: Respons
  * Unregister device token
  * DELETE /api/notifications/unregister-device
  */
-export const unregisterDevice = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const unregisterDevice = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const { deviceToken } = req.body;
 
@@ -263,7 +271,7 @@ export const unregisterDevice = asyncHandler(async (req: AuthRequest, res: Respo
  * Delete a notification
  * DELETE /api/notifications/:notificationId
  */
-export const deleteNotification = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const deleteNotification = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const { notificationId } = req.params;
 

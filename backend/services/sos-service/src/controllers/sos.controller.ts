@@ -16,20 +16,27 @@ import {
   Worker,
   USER_ROLES_OBJ,
   SOS_PRIORITY_OBJ,
+  UserRole,
 } from '@handy-go/shared';
 import { assessPriority, detectPotentialFalseAlarm } from '../algorithms/priority-assessor.js';
 import notificationService from '../services/notification.service.js';
 
-// Extend Request to include user
-interface AuthRequest extends Request {
-  user?: { id: string; role: string };
+declare global {
+  namespace Express {
+    interface Request {
+      user?: {
+        id: string;
+        role: UserRole;
+      };
+    }
+  }
 }
 
 /**
  * Trigger SOS emergency
  * POST /api/sos/trigger
  */
-export const triggerSOS = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const triggerSOS = asyncHandler(async (req: Request, res: Response) => {
   const userId = req.user!.id;
   const userRole = req.user!.role;
   const { bookingId, reason, description, location, evidence } = req.body;
@@ -148,7 +155,7 @@ export const triggerSOS = asyncHandler(async (req: AuthRequest, res: Response) =
  * Get SOS details
  * GET /api/sos/:sosId
  */
-export const getSOSDetails = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const getSOSDetails = asyncHandler(async (req: Request, res: Response) => {
   const { sosId } = req.params;
   const userId = req.user!.id;
   const userRole = req.user!.role;
@@ -174,7 +181,7 @@ export const getSOSDetails = asyncHandler(async (req: AuthRequest, res: Response
  * Update SOS with additional information
  * PUT /api/sos/:sosId/update
  */
-export const updateSOS = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const updateSOS = asyncHandler(async (req: Request, res: Response) => {
   const { sosId } = req.params;
   const userId = req.user!.id;
   const { description, evidence } = req.body;
@@ -221,7 +228,7 @@ export const updateSOS = asyncHandler(async (req: AuthRequest, res: Response) =>
  * Get all active SOS sorted by priority
  * GET /api/sos/admin/active
  */
-export const getActiveSOSList = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const getActiveSOSList = asyncHandler(async (req: Request, res: Response) => {
   const { priority, page = 1, limit = 20 } = req.query;
   const pageNum = parseInt(page as string, 10);
   const limitNum = parseInt(limit as string, 10);
@@ -264,7 +271,7 @@ export const getActiveSOSList = asyncHandler(async (req: AuthRequest, res: Respo
  * Assign SOS to admin
  * POST /api/sos/admin/:sosId/assign
  */
-export const assignSOS = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const assignSOS = asyncHandler(async (req: Request, res: Response) => {
   const { sosId } = req.params;
   const adminId = req.user!.id;
 
@@ -296,7 +303,7 @@ export const assignSOS = asyncHandler(async (req: AuthRequest, res: Response) =>
  * Resolve SOS
  * POST /api/sos/admin/:sosId/resolve
  */
-export const resolveSOS = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const resolveSOS = asyncHandler(async (req: Request, res: Response) => {
   const sosId = req.params.sosId!;
   const adminId = req.user!.id;
   const { action, notes } = req.body;
@@ -339,7 +346,7 @@ export const resolveSOS = asyncHandler(async (req: AuthRequest, res: Response) =
  * Escalate SOS
  * POST /api/sos/admin/:sosId/escalate
  */
-export const escalateSOS = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const escalateSOS = asyncHandler(async (req: Request, res: Response) => {
   const sosId = req.params.sosId!;
   const adminId = req.user!.id;
   const { reason } = req.body;
@@ -387,7 +394,7 @@ export const escalateSOS = asyncHandler(async (req: AuthRequest, res: Response) 
  * Mark SOS as false alarm
  * POST /api/sos/admin/:sosId/false-alarm
  */
-export const markFalseAlarm = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const markFalseAlarm = asyncHandler(async (req: Request, res: Response) => {
   const { sosId } = req.params;
   const adminId = req.user!.id;
   const { reason, penalizeUser } = req.body;
@@ -425,7 +432,7 @@ export const markFalseAlarm = asyncHandler(async (req: AuthRequest, res: Respons
  * Get SOS statistics
  * GET /api/sos/admin/stats
  */
-export const getSOSStats = asyncHandler(async (req: AuthRequest, res: Response) => {
+export const getSOSStats = asyncHandler(async (req: Request, res: Response) => {
   const { startDate, endDate } = req.query;
 
   const dateFilter: any = {};
