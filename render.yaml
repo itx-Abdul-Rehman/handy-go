@@ -1,0 +1,144 @@
+services:
+  # API Gateway
+  - type: web
+    name: hgo-api-gateway
+    env: node
+    plan: free
+    rootDir: backend/api-gateway
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: NODE_ENV
+        value: production
+      - fromGroup: hgo-common-vars
+      - key: AUTH_SERVICE_URL
+        fromService:
+          name: hgo-auth-service
+          type: web
+          property: host
+      - key: USER_SERVICE_URL
+        fromService:
+          name: hgo-user-service
+          type: web
+          property: host
+      - key: BOOKING_SERVICE_URL
+        fromService:
+          name: hgo-booking-service
+          type: web
+          property: host
+      - key: MATCHING_SERVICE_URL
+        fromService:
+          name: hgo-matching-service
+          type: web
+          property: host
+      - key: NOTIFICATION_SERVICE_URL
+        fromService:
+          name: hgo-notification-service
+          type: web
+          property: host
+      - key: SOS_SERVICE_URL
+        fromService:
+          name: hgo-sos-service
+          type: web
+          property: host
+
+  # Auth Service
+  - type: web
+    name: hgo-auth-service
+    env: node
+    plan: free
+    rootDir: backend/services/auth-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3001
+      - fromGroup: hgo-common-vars
+
+  # User Service
+  - type: web
+    name: hgo-user-service
+    env: node
+    plan: free
+    rootDir: backend/services/user-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3002
+      - fromGroup: hgo-common-vars
+
+  # Booking Service
+  - type: web
+    name: hgo-booking-service
+    env: node
+    plan: free
+    rootDir: backend/services/booking-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3003
+      - fromGroup: hgo-common-vars
+
+  # Matching Service
+  - type: web
+    name: hgo-matching-service
+    env: node
+    plan: free
+    rootDir: backend/services/matching-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3004
+      - fromGroup: hgo-common-vars
+
+  # Notification Service
+  - type: web
+    name: hgo-notification-service
+    env: node
+    plan: free
+    rootDir: backend/services/notification-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3006
+      - fromGroup: hgo-common-vars
+
+  # SOS Service
+  - type: web
+    name: hgo-sos-service
+    env: node
+    plan: free
+    rootDir: backend/services/sos-service
+    buildCommand: pnpm install && pnpm run build
+    startCommand: pnpm run start
+    envVars:
+      - key: PORT
+        value: 3007
+      - fromGroup: hgo-common-vars
+
+envGroups:
+  - name: hgo-common-vars
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false # User will set this in Render UI
+      - key: JWT_SECRET
+        generateValue: true
+      - key: REDIS_URL
+        fromService:
+          name: hgo-redis
+          type: redis
+          property: connectionString
+
+databases:
+  - name: hgo-redis
+    type: redis
+    plan: free
+    ipAllowList: [] # Only allow internal connections

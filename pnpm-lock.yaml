@@ -35,9 +35,6 @@ importers:
       appwrite:
         specifier: ^22.4.0
         version: 22.4.0
-      axios:
-        specifier: ^1.6.2
-        version: 1.13.2
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0

@@ -1080,3 +1080,32 @@
 {"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-02-20 00:06:21"}
 {"duration":"10ms","ip":"::1","level":"info","message":"Request completed","method":"GET","path":"/health","query":{},"requestId":"051009dc-bbf3-4ad3-be4a-f5586850a0bf","service":"handy-go","statusCode":200,"timestamp":"2026-02-20 00:12:22","userAgent":"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4"}
 {"level":"info","message":"::1 - - [19/Feb/2026:19:12:22 +0000] \"GET /health HTTP/1.1\" 200 414 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; en-US) PowerShell/7.5.4\"","service":"handy-go","timestamp":"2026-02-20 00:12:22"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Environment: development","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-13 13:05:03"}
+{"duration":"25ms","ip":"::ffff:127.0.0.1","level":"warn","message":"Request completed with client error","method":"GET","path":"/api-docs","query":{},"requestId":"35132c26-78d5-41aa-94d8-4b1d78e5db8e","service":"handy-go","statusCode":401,"timestamp":"2026-04-13 13:07:00","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Apr/2026:08:07:00 +0000] \"GET /api-docs HTTP/1.1\" 401 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0\"","service":"handy-go","timestamp":"2026-04-13 13:07:00"}
+{"duration":"2ms","ip":"::ffff:127.0.0.1","level":"warn","message":"Request completed with client error","method":"GET","path":"/favicon.ico","query":{},"requestId":"cfcf25b7-449a-4e30-a173-e795f7da4d2f","service":"handy-go","statusCode":401,"timestamp":"2026-04-13 13:07:00","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Apr/2026:08:07:00 +0000] \"GET /favicon.ico HTTP/1.1\" 401 51 \"http://localhost:3000/api-docs\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0\"","service":"handy-go","timestamp":"2026-04-13 13:07:00"}
+{"duration":"2ms","ip":"::1","level":"info","message":"Request completed","method":"GET","path":"/health","query":{},"requestId":"79e8f136-8234-466c-a37d-ad7accc913f9","service":"handy-go","statusCode":200,"timestamp":"2026-04-13 13:07:39","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22000.2538"}
+{"level":"info","message":"::1 - - [13/Apr/2026:08:07:39 +0000] \"GET /health HTTP/1.1\" 200 414 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22000.2538\"","service":"handy-go","timestamp":"2026-04-13 13:07:39"}
+{"duration":"2ms","ip":"::ffff:127.0.0.1","level":"info","message":"Request completed","method":"GET","path":"/health","query":{},"requestId":"632b703a-5330-4497-a258-0d0e122d7d2a","service":"handy-go","statusCode":200,"timestamp":"2026-04-13 13:09:30","userAgent":"curl/8.0.1"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Apr/2026:08:09:30 +0000] \"GET /health HTTP/1.1\" 200 414 \"-\" \"curl/8.0.1\"","service":"handy-go","timestamp":"2026-04-13 13:09:30"}
+{"duration":"4ms","ip":"::ffff:127.0.0.1","level":"info","message":"Request completed","method":"GET","path":"/health","query":{},"requestId":"8643cf39-274a-4d9a-ad52-9df9ab216f37","service":"handy-go","statusCode":200,"timestamp":"2026-04-13 13:09:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Apr/2026:08:09:51 +0000] \"GET /health HTTP/1.1\" 200 414 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0\"","service":"handy-go","timestamp":"2026-04-13 13:09:51"}
+{"duration":"1ms","ip":"::ffff:127.0.0.1","level":"warn","message":"Request completed with client error","method":"GET","path":"/favicon.ico","query":{},"requestId":"35230e7e-b49a-4a66-be41-173ee8bc6b16","service":"handy-go","statusCode":401,"timestamp":"2026-04-13 13:09:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [13/Apr/2026:08:09:51 +0000] \"GET /favicon.ico HTTP/1.1\" 401 51 \"http://localhost:3000/health\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0\"","service":"handy-go","timestamp":"2026-04-13 13:09:51"}

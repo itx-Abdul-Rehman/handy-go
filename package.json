@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "concurrently \"pnpm --filter ./backend/services/* run dev\"",
+    "dev": "concurrently \"pnpm --filter ./backend/api-gateway run dev\" \"pnpm --filter ./backend/services/* run dev\"",
     "build": "pnpm -r run build",
     "test": "pnpm -r run test",
     "lint": "pnpm -r run lint",
