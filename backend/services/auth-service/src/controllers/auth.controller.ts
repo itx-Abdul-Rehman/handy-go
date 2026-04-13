@@ -437,7 +437,7 @@ export const refreshToken = asyncHandler(async (req: Request, res: Response) => 
     value.refreshToken,
     user._id.toString(),
     'token_refresh',
-    new Date(decoded.exp * 1000)
+    new Date((decoded.exp || 0) * 1000)
   );
 
   // Generate new tokens
@@ -548,17 +548,19 @@ export const logout = asyncHandler(async (req: Request, res: Response) => {
 
   const accessToken = authHeader.split(' ')[1];
 
-  // Revoke the access token
-  try {
-    const decoded = verifyAccessToken(accessToken) as any;
-    await TokenBlacklist.revokeToken(
-      accessToken,
-      decoded.userId,
-      'logout',
-      new Date(decoded.exp * 1000)
-    );
-  } catch {
-    // Token may be invalid/expired already - still log out successfully
+  if (accessToken) {
+    // Revoke the access token
+    try {
+      const decoded = verifyAccessToken(accessToken) as any;
+      await TokenBlacklist.revokeToken(
+        accessToken,
+        decoded.userId,
+        'logout',
+        new Date((decoded.exp || 0) * 1000)
+      );
+    } catch {
+      // Token may be invalid/expired already - still log out successfully
+    }
   }
 
   // Also revoke refresh token if provided in body
@@ -570,7 +572,7 @@ export const logout = asyncHandler(async (req: Request, res: Response) => {
         rt,
         decoded.userId,
         'logout',
-        new Date(decoded.exp * 1000)
+        new Date((decoded.exp || 0) * 1000)
       );
     } catch {
       // Ignore invalid refresh tokens during logout
