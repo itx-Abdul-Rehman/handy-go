@@ -1,17 +1,23 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt, { JwtPayload } from 'jsonwebtoken';
-import { logger } from '@handy-go/shared';
+import { logger, UserRole } from '@handy-go/shared';
 import { config } from '../config/index.js';
 import { isPublicRoute } from '../config/routes.js';
 
-// Extend Request to include user
-interface AuthRequest extends Request {
-  user?: { id: string; role: string };
+declare global {
+  namespace Express {
+    interface Request {
+      user?: {
+        id: string;
+        role: UserRole;
+      };
+    }
+  }
 }
 
 interface TokenPayload {
   userId: string;
-  role: string;
+  role: UserRole;
   iat?: number;
   exp?: number;
 }
@@ -21,7 +27,7 @@ interface TokenPayload {
  * Validates JWT tokens and attaches user info to request
  */
 export const authenticate = async (
-  req: AuthRequest,
+  req: Request,
   res: Response,
   next: NextFunction
 ) => {
@@ -94,7 +100,7 @@ export const authenticate = async (
  * Just extracts user info if token is present
  */
 export const optionalAuth = async (
-  req: AuthRequest,
+  req: Request,
   res: Response,
   next: NextFunction
 ) => {

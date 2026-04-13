@@ -1,24 +1,30 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { errorResponse, User } from '@handy-go/shared';
+import { errorResponse, User, UserRole } from '@handy-go/shared';
 import { config } from '../config/index.js';
+
+declare global {
+  namespace Express {
+    interface Request {
+      user?: {
+        id: string;
+        role: UserRole;
+      };
+    }
+  }
+}
 
 // Token payload interface
 interface TokenPayload {
   userId: string;
-  role: string;
-}
-
-// Extend Request to include user
-interface AuthRequest extends Request {
-  user?: { id: string; role: string };
+  role: UserRole;
 }
 
 /**
  * Verify JWT token and attach user to request
  */
 export const authenticate = async (
-  req: AuthRequest,
+  req: Request,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
@@ -64,8 +70,8 @@ export const authenticate = async (
 /**
  * Check if user has required role(s)
  */
-export const authorize = (...roles: string[]) => {
-  return (req: AuthRequest, res: Response, next: NextFunction): void => {
+export const authorize = (...roles: UserRole[]) => {
+  return (req: Request, res: Response, next: NextFunction): void => {
     if (!req.user) {
       res.status(401).json(
         errorResponse(res, 'Authentication required', 401)
