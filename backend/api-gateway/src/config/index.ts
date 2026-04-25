@@ -18,7 +18,9 @@ export const config = {
 
   corsOrigins: process.env.CORS_ORIGINS?.split(',') || [
     'http://localhost:3000',
+    'http://localhost:5173',
     'http://localhost:8080',
+    'https://handy-go-1y91.onrender.com',
   ],
 
   // Redis configuration for rate limiting and caching

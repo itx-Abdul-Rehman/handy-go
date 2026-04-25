@@ -50,6 +50,10 @@ dependencies:
   # Appwrite Backend (Cloud)
   appwrite: 21.4.0
 
+  # REST API Client
+  dio: ^5.4.0
+  pretty_dio_logger: ^1.3.1
+
   # Voice Input - TODO: Add later after fixing Kotlin cross-drive issue
   # speech_to_text: ^7.3.0
 

@@ -114,6 +114,8 @@ envGroups:
         sync: false # User will set this in Render UI
       - key: JWT_SECRET
         generateValue: true
+      - key: CORS_ORIGINS
+        value: "http://localhost:3000,http://localhost:5173,http://localhost:8080,https://handy-go-1y91.onrender.com"
       - key: REDIS_URL
         fromService:
           name: hgo-redis

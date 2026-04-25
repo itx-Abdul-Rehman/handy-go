@@ -19,29 +19,17 @@ class ApiEndpoints {
   // static const bool _useHttps = true;
 
   // Option 4: Production Server
-  // static const String _host = 'api.handygo.com';
-  // static const bool _useHttps = true;
+  static const String _host = 'handy-go-1y91.onrender.com';
+  static const bool _useHttps = true;
 
   // ========================================================
-  // CURRENT SETTING: Auto-detect for local development
+  // CURRENT SETTING: Cloud Deployment (Render)
   // ========================================================
-  static const bool _useHttps = false;
-  static const int _port = 3000;
+  static const int _port = 443; // Standard HTTPS port
 
   static String get baseUrl {
-    // For physical device testing via USB (adb reverse tcp:3000 tcp:3000):
-    const String physicalDeviceIP = '127.0.0.1'; // Via ADB reverse
-    // const String physicalDeviceIP = '192.168.1.3'; // Your laptop WiFi IP
-
     final protocol = _useHttps ? 'https' : 'http';
-
-    // Uncomment the appropriate line for your testing environment:
-    // return '$protocol://$physicalDeviceIP:$_port/api'; // Physical device
-    // return 'http://10.0.2.2:$_port/api'; // Android emulator
-    // return 'http://localhost:$_port/api'; // iOS simulator or web
-
-    // Default: Use physical device IP for testing
-    return '$protocol://$physicalDeviceIP:$_port/api';
+    return '$protocol://$_host/api';
   }
 
   // Auth endpoints

@@ -72,10 +72,15 @@ app.get('/health', (req, res) => {
     service: 'api-gateway',
     timestamp: new Date().toISOString(),
     environment: config.nodeEnv,
+    node_env: process.env.NODE_ENV,
     services: Object.entries(config.services).map(([name, url]) => ({
       name,
       url,
     })),
+    debug: {
+      has_auth_url: !!process.env.AUTH_SERVICE_URL,
+      auth_url_value: process.env.AUTH_SERVICE_URL || 'MISSING',
+    }
   });
 });
 

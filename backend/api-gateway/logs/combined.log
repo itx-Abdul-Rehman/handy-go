@@ -1194,3 +1194,88 @@
 {"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-13 14:39:22"}
 {"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-13 14:39:22"}
 {"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-13 14:39:22"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Environment: production","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-13 15:05:47"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Environment: production","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-14 15:57:10"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Environment: production","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-14 16:02:41"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Environment: production","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-14 16:03:28"}
+{"level":"info","message":"Proxy configured: /api/auth -> http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Proxy configured: /api/users -> http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Proxy configured: /api/bookings -> http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Proxy configured: /api/matching -> http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Proxy configured: /api/notifications -> http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Proxy configured: /api/sos -> http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Environment: production","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Configured services:","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - auth: http://localhost:3001","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - user: http://localhost:3002","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - booking: http://localhost:3003","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - matching: http://localhost:3004","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - notification: http://localhost:3005","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"  - sos: http://localhost:3006","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Server is now listening for connections...","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
+{"level":"info","message":"Server is listening!","service":"handy-go","timestamp":"2026-04-14 16:05:42"}
